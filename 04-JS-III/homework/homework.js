@@ -261,7 +261,7 @@ function continueStatement(numero) {
   var i = 0;
   var array = [0];
 
-  while (i <10);{
+  while (i <10){
   i++;
  
  if (i === 5);{
