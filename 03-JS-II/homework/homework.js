@@ -97,10 +97,10 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( numero === 10 || 5);{
-    return true
+  if ( numero === 10 || numero === 5);{
+    return true;
   }
-  return false
+  return false;
 }
 
 function estaEnRango(numero) {
@@ -210,15 +210,21 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  var tablaDelSeis = []
+  var arraytablaDelSeis = []
   for(i = 0 ; i < 11 ; i++);{
-  tablaDelSeis.push = i * 6);{
-    return tablaDelSeis;
+  arraytablaDelSeis.push = (i * 6);{
+    return arraytablaDelSeis;
   }
+}
 }
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  if (numero >99 && numero < 1000){  
+     return true;
+  }
+  return false;
+
   
 }
 
@@ -226,6 +232,15 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var i = numero;
+  var h = 0;
+  do {
+    h = h + 1;
+    i = i + 5;
+
+  }
+  while (i > 9);
+  return i;
 }
 
 
@@ -247,5 +262,4 @@ module.exports = {
   esVerdadero,
   tablaDelSeis,
   tieneTresDigitos,
-  doWhile
-};
+  doWhile }
