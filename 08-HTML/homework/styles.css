@@ -1,0 +1,21 @@
+h1{
+    color: blueviolet;
+}
+    img{
+        width: 400px;
+    }
+        
+    /* # = se usa para seleccionar algo en especifico de adentro de los <>
+    en este caso : <div id = "THIRDIV" */
+    #thirdDiv {
+        height: 600px;
+        width: 500px;
+        background-color: darkorchid;
+        padding: 50px;
+        border-width: 70px;
+        border: 1rem solid crimson;
+    }
+    #spanid{
+        font-size: 18px;
+        margin: 50px;
+    }
