@@ -8,11 +8,6 @@ function obtenerMayor(x, y) {
   if (x>y); {
     return x
    }
-   if (x === y);{
-   return x || y
-  }
-
- return y;
 }
 
 function mayoriaDeEdad(edad) {
